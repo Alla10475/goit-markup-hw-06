@@ -1,0 +1,150 @@
+@media screen and (min-width: 768px) {
+    
+    .container {
+        max-width: 768px;
+    }
+
+    /* Hero section */
+    .hero-section {
+        max-width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.70),
+            rgba(46, 47, 66, 0.70)),
+            url(../images/people-office.jpg);
+    }
+
+    .hero-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero-title-span {
+        text-transform: lowercase;
+    }
+
+    /* Our features */
+
+    .features-list {
+        flex-direction: row;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
+
+    .features-card {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    /* Our Team */
+
+    .team-list {
+        flex-direction: row;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-card {
+        flex-basis: calc((100% - 24px) / 2);
+        margin: 0;
+    }
+
+    /* Our Portfolio */
+
+    .project-card-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+    }
+
+    .project-card {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
+
+    .hero-section {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        
+    }    
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+
+    /* Our features */
+
+    .features-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+
+    .features-text {
+        font-weight: 400;
+    }
+
+   .features-card > .visually-hidden {
+
+   }
+
+    .features-card {
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+
+    .is-hidden {
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+    }
+
+    .features-icon-container {
+        display: flex;
+        max-width: 264px;
+        height: 112px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid var(--lightslate, #8E8F99);
+        background-color: var(--c-light);
+        margin-bottom: 8px;
+        align-items: center;
+        justify-content: center;
+    }    
+        
+    .team-card {
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+
+    /* Our Portfolio */
+
+    .project-card {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+
+    .project-card-list {
+        gap: 48px 24px;
+    }
+}
+
