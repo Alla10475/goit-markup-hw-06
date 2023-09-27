@@ -30,6 +30,10 @@
 
     /* Our features */
 
+    .features-title {
+        text-align: start;
+    }
+    
     .features-list {
         flex-direction: row;
         gap: 72px 24px;
@@ -65,6 +69,40 @@
 
     .project-card {
         flex-basis: calc((100% - 24px) / 2);
+    }
+
+    /* Footer */
+
+    .footer-inner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 108px;
+        padding-left: 108px;
+    }
+
+    .footer-wrapper {
+        display: flex; 
+    }
+
+    .footer-text-container {
+        max-width: 264px;
+        margin-right: 24px;
+    }
+
+    .footer-logo {
+        justify-content: start;
+    }
+
+    .footer-text-secondary {
+        text-align: start;
+    }
+
+    .footer-form {
+        flex-direction: row;
+    }
+
+    .input-email {
+        width: 264px;
     }
 
 }
@@ -106,18 +144,8 @@
         font-weight: 400;
     }
 
-   .features-card > .visually-hidden {
-
-   }
-
     .features-card {
         flex-basis: calc((100% - 3 * 24px) / 4);
-    }
-
-    .is-hidden {
-        opacity: 1;
-        visibility: visible;
-        position: relative;
     }
 
     .features-icon-container {
@@ -145,6 +173,28 @@
 
     .project-card-list {
         gap: 48px 24px;
+    }
+
+    /* Footer */
+
+    .footer-text-container {
+        margin-right: 120px;
+    }
+
+    .email-container {
+        justify-content: end;
+    }
+
+    .footer-inner {
+        justify-content: space-between;
+    }
+
+    .footer-text {
+        margin-bottom: 0;
+    } 
+
+    .footer-social-list {
+        margin-bottom: 0;
     }
 }
 
