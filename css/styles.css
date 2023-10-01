@@ -63,9 +63,6 @@ body {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 .section {
@@ -100,7 +97,6 @@ body {
     display: flex;
     border: none;
     background-color: transparent;
-    /* margin-left: auto; */
 }
 
  .header-inner {
@@ -171,8 +167,6 @@ body {
     background: var(--c-pressed-state);
 }
 
-
-
 /* Our features */
 
 .visually-hidden {
@@ -213,10 +207,9 @@ body {
     flex-basis: 100%;
 }
 
-  .features-icon-container {
+.features-icon-container {
     display: none;
-  }
-
+}
 
 /* Our Team */
 
@@ -227,7 +220,6 @@ body {
 .team-card {
     background: var(--c-bg-white);
     max-width: 264px;
-    /* margin: 0 auto; */
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -297,12 +289,10 @@ body {
     line-height: 1.11;
     text-transform: capitalize;
     margin-bottom: 72px;
-
 }
 
 .project-card {
     background: var(--c-bg-white);
-    /* max-width: 100%; */
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -312,7 +302,6 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);  
 }
-
 
 .project-title {
     color: var(--c-dark);
@@ -365,19 +354,6 @@ body {
     background: var(--c-dark);
     padding: 100px 0;
 }
-
-.footer-inner {
-    /* display: flex; */
-    /* flex-direction: column; */
-
-    /* align-items: baseline; */
-    /* justify-content: space-between; */
-    /* gap: 72px; */
-}
-
-/* .footer-wrapper {
-    display: flex;
-} */
 
 .footer-logo {
     color: var(--c-primary-brand);
@@ -434,7 +410,6 @@ body {
     fill: var(--c-light);   
 }
 
-
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: var(--c-success);
@@ -481,12 +456,6 @@ input::placeholder {
 
 }
 
-/* .footer-form {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-} */
-
 .frame-icon {
     fill: var(--c-light);
     margin-left: 16px;
@@ -520,7 +489,6 @@ input::placeholder {
     transform: translate(-50%, -50%) scale(1);
     width: 288px;
     min-height: 623px;
-    
     border-radius: 4px;
     background: var(--c-modal-bg);
     padding: 72px 16px 24px;
@@ -707,6 +675,7 @@ input::placeholder {
     top: 0;
     left: 0;
     width: 100%;
+    /* max-width: 320px; */
     height: 100%;
     padding: 72px 24px 40px 16px;
     display: flex;
@@ -714,9 +683,9 @@ input::placeholder {
     transform: translateX(100%);
 }
 
-/* .menu-container.is-open {
+.menu-container.is-open {
     transform: translateX(0);
-} */
+}
 
 .menu-close {
     position: absolute;
