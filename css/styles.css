@@ -122,7 +122,7 @@ body {
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
     ),
-    url(../images/people-office@2x.jpg);
+    url(../images/hero/people-office-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -714,9 +714,9 @@ input::placeholder {
     transform: translateX(100%);
 }
 
-.menu-container.is-open {
+/* .menu-container.is-open {
     transform: translateX(0);
-}
+} */
 
 .menu-close {
     position: absolute;
